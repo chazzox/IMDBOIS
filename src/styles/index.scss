@@ -1,0 +1,44 @@
+@import "./variables.scss";
+
+* {
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
+  letter-spacing: 0.5pt;
+}
+
+html,
+body,
+#grid-container,
+#root {
+  background-color: $primaryBackground;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#grid-container {
+  display: flex;
+  header {
+    background-color: $secondaryBackground;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  main {
+    grid-area: content;
+    #movieContainer {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-auto-flow: column;
+      grid-auto-columns: 1fr;
+      gap: 15px;
+      margin: 15px;
+      .movie {
+        background-color: $tertiaryBackground;
+      }
+      overflow-x: scroll;
+    }
+  }
+}
