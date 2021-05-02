@@ -1,10 +1,10 @@
 function Login() {
-  return (
-    <div id="content">
-      <button>Login</button>
-      <button>Register</button>
-    </div>
-  );
+	return (
+		<>
+			<button>Login</button>
+			<button>Register</button>
+		</>
+	);
 }
 
 export default Login;

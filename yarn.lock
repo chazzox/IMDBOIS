@@ -3009,6 +3009,11 @@ cssstyle@^2.3.0:
   dependencies:
     cssom "~0.3.6"
 
+csstype@^2.6.2:
+  version "2.6.17"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.17.tgz#4cf30eb87e1d1a005d8b6510f95292413f6a1c0e"
+  integrity sha512-u1wmTI1jJGzCJzWndZo8mk4wnPTZd1eOIYTYvuEyOQGfmDl3TrabCCfKnOC86FZwW/9djqTl933UF/cS425i9A==
+
 cyclist@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
@@ -4112,6 +4117,11 @@ globby@^6.1.0:
     object-assign "^4.0.1"
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
+
+goober@^2.0.35:
+  version "2.0.37"
+  resolved "https://registry.yarnpkg.com/goober/-/goober-2.0.37.tgz#5598c41f4c19bc1fca2c926e876a58a685faffb8"
+  integrity sha512-wgj5C7IJX2+MyHZ4TgOA+hLL1mCDW+jGorQ5KCMLF1ofE9gQkfbo1s8txIrzIsAX65XRTm0qaipolId2KMYUkw==
 
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.2, graceful-fs@^4.2.4:
   version "4.2.6"
@@ -8302,6 +8312,14 @@ solid-scripts@0.0.55:
     webpack-dev-server "^3.11.0"
     webpack-manifest-plugin "^2.0.4"
     workbox-webpack-plugin "^4.3.0"
+
+solid-styled-components@^0.26.3:
+  version "0.26.3"
+  resolved "https://registry.yarnpkg.com/solid-styled-components/-/solid-styled-components-0.26.3.tgz#e7e44f24115a9fc094eaaaf2a4f36136b16dfba4"
+  integrity sha512-IHkd42WVpKh4XI1Dub1KFyjrQnGkKbMoGNqC1UQL04rfKxiBNp0V+i+I7DJVtc1leVjguMfMZ9PVcqtkoUEP0Q==
+  dependencies:
+    csstype "^2.6.2"
+    goober "^2.0.35"
 
 sort-keys@^1.0.0:
   version "1.1.2"
